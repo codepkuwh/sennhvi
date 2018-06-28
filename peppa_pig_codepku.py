@@ -233,7 +233,11 @@ def setting():
     setup(840, 500)
     speed(10)
 
-
+def copy_right(x, y):
+    m_goto(x, y)
+    write("Copyright © 2014 - 2018 CodePKu. \nAll Rights Reserved.编玩边学版权所有")
+    
+    
 def main():
     setting()
     body(-10, -25)
@@ -247,6 +251,7 @@ def main():
     eyes()
     cheek(80, 10)
     mouth(-20, 30)
+    copy_right(180, -220)
     done()
 
 
